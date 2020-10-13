@@ -65,6 +65,11 @@ function printwebpart(webpartid)
       return item;
    }
 
+   /**
+    * ======================================================================================
+    * @description - This block is the print output, modify this section per use case
+    * ======================================================================================
+    */
    form += '<style>';
    form += 'html {box-sizing: border-box;}';
    form += 'form {box-sizing: border-box;margin: auto;height: 100%;}';
@@ -348,7 +353,11 @@ function printwebpart(webpartid)
       form += '<label for="author">DESCRIPTION:</label>';
       form += '<input class="input-inline" type="text" name="" id="author" value="PACKING LIST ENCLOSED">';
    form += '</div>';
-
+   /**
+    * ======================================================================================
+    *  ............................ END OF PRINT OUTPUT ..................................
+    * ======================================================================================
+    */
 
    // Bernhardt Details
 
